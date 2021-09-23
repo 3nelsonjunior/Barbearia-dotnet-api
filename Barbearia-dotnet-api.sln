@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - api", "0 - api", "{A6F5BBF5-E9A8-4911-B4D3-CA562E201BB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - service", "2 - service", "{60909533-15C3-46AA-AB20-7EA17318C2F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - repository", "3 - repository", "{5B273F64-71B5-4AA4-A03C-F1FD6D1CE6C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - domain", "1 - domain", "{68DC59B3-E1CF-43E7-9A55-1381F73C96D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbearia.Domain", "Barbearia.Domain\Barbearia.Domain.csproj", "{5FE8F221-CA2C-4CAB-BBBF-FC7B19652D68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbearia.Service", "Barbearia.Service\Barbearia.Service.csproj", "{4283C1C0-2FE3-4EF4-901A-A182380B39B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbearia.Repository", "Barbearia.Repository\Barbearia.Repository.csproj", "{6B445CCF-0154-4B1E-90F6-5D5A18A59846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbearia.API", "Barbearia.API\Barbearia.API.csproj", "{8A878142-D0E5-4B47-B4DD-C06C47FC35A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FE8F221-CA2C-4CAB-BBBF-FC7B19652D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE8F221-CA2C-4CAB-BBBF-FC7B19652D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE8F221-CA2C-4CAB-BBBF-FC7B19652D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE8F221-CA2C-4CAB-BBBF-FC7B19652D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4283C1C0-2FE3-4EF4-901A-A182380B39B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4283C1C0-2FE3-4EF4-901A-A182380B39B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4283C1C0-2FE3-4EF4-901A-A182380B39B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4283C1C0-2FE3-4EF4-901A-A182380B39B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B445CCF-0154-4B1E-90F6-5D5A18A59846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B445CCF-0154-4B1E-90F6-5D5A18A59846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B445CCF-0154-4B1E-90F6-5D5A18A59846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B445CCF-0154-4B1E-90F6-5D5A18A59846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A878142-D0E5-4B47-B4DD-C06C47FC35A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A878142-D0E5-4B47-B4DD-C06C47FC35A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A878142-D0E5-4B47-B4DD-C06C47FC35A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A878142-D0E5-4B47-B4DD-C06C47FC35A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FE8F221-CA2C-4CAB-BBBF-FC7B19652D68} = {68DC59B3-E1CF-43E7-9A55-1381F73C96D2}
+		{4283C1C0-2FE3-4EF4-901A-A182380B39B4} = {60909533-15C3-46AA-AB20-7EA17318C2F6}
+		{6B445CCF-0154-4B1E-90F6-5D5A18A59846} = {5B273F64-71B5-4AA4-A03C-F1FD6D1CE6C4}
+		{8A878142-D0E5-4B47-B4DD-C06C47FC35A7} = {A6F5BBF5-E9A8-4911-B4D3-CA562E201BB4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D505EE1-D7C4-451A-8090-5B301E1A0F32}
+	EndGlobalSection
+EndGlobal

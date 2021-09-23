@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Dto\Get\" />
+    <Folder Include="Dto\Core\" />
+    <Folder Include="Dto\Put\" />
+    <Folder Include="Dto\Post\" />
+    <Folder Include="Entity\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Interface\" />
+  </ItemGroup>
+
+</Project>
